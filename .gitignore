@@ -1,0 +1,12 @@
+/target
+# Remove if you are building an executable
+Cargo.lock
+
+# Backup files from rustfmt
+**/*.rs.bk
+
+# MSVC Windows build artifacts
+*.pdb
+
+# Compiler crash reports
+rustc-ice-*.txt
