@@ -1,5 +1,5 @@
 [workspace]
 members = [
-    "fair-threads",
+    "fair-threads", "tcp-server",
 ]
-resolver = "1"
+resolver = "2"
