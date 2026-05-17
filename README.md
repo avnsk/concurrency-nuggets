@@ -22,3 +22,6 @@ The following results were recorded on a local machine searching for all prime n
 | **Multi-Threaded** | 10 | 9.59 seconds | ~4.22x faster |
 
 *Note: Total primes found in both runs: 5,761,455.*
+
+### 2.Mutltithreaded TCP Server
+Basic TCP server showing multithreaded nature using OS threads. Generally [Tokio] (https://tokio.rs/) is used for these which gives tasks which are similar to goroutines and are really lightweight
